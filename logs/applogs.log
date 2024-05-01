@@ -1,0 +1,88 @@
+2024-05-01T11:56:14,685 [main] INFO  (RestAssuredListener.java:23) - 
+ Method =>POST
+ URI => https://restful-booker.herokuapp.com/booking
+ Request body => {
+  "firstname" : "api testing by",
+  "lastname" : "anirudh",
+  "additionalneeds" : "breakfast",
+  "totalprice" : 1000,
+  "bookingdates" : {
+    "checkin" : "2023-03-03",
+    "checkout" : "2023-04-05"
+  }
+}
+ Response body => Internal Server Error
+2024-05-01T11:56:14,707 [main] INFO  (RestAssuredListener.java:28) - Internal Server Error
+2024-05-01T11:56:16,097 [main] INFO  (RestAssuredListener.java:23) - 
+ Method =>POST
+ URI => https://restful-booker.herokuapp.com/booking
+ Request body => {
+  "firstname" : "rest assured  by",
+  "lastname" : "anirudh",
+  "additionalneeds" : "lunch",
+  "totalprice" : 1001,
+  "bookingdates" : {
+    "checkin" : "2023-03-04",
+    "checkout" : "2023-04-06"
+  }
+}
+ Response body => Internal Server Error
+2024-05-01T11:56:16,099 [main] INFO  (RestAssuredListener.java:28) - Internal Server Error
+2024-05-01T11:58:13,817 [main] INFO  (RestAssuredListener.java:23) - 
+ Method =>POST
+ URI => https://restful-booker.herokuapp.com/booking
+ Request body => {
+  "firstname" : "api testing by",
+  "lastname" : "anirudh",
+  "additionalneeds" : "breakfast",
+  "totalprice" : 1000,
+  "bookingdates" : {
+    "checkin" : "2023-03-03",
+    "checkout" : "2023-04-05"
+  }
+}
+ Response body => Internal Server Error
+2024-05-01T11:58:13,825 [main] INFO  (RestAssuredListener.java:28) - Internal Server Error
+2024-05-01T11:58:15,193 [main] INFO  (RestAssuredListener.java:23) - 
+ Method =>POST
+ URI => https://restful-booker.herokuapp.com/booking
+ Request body => {
+  "firstname" : "rest assured  by",
+  "lastname" : "anirudh",
+  "additionalneeds" : "lunch",
+  "totalprice" : 1001,
+  "bookingdates" : {
+    "checkin" : "2023-03-04",
+    "checkout" : "2023-04-06"
+  }
+}
+ Response body => Internal Server Error
+2024-05-01T11:58:15,194 [main] INFO  (RestAssuredListener.java:28) - Internal Server Error
+2024-05-01T12:02:23,289 [main] INFO  (RestAssuredListener.java:28) - {
+    "bookingid": 408,
+    "booking": {
+        "firstname": "api testing by",
+        "lastname": "anirudh",
+        "totalprice": 1000,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2023-03-03",
+            "checkout": "2023-04-05"
+        },
+        "additionalneeds": "breakfast"
+    }
+}
+2024-05-01T12:02:24,901 [main] INFO  (RestAssuredListener.java:28) - {
+    "bookingid": 419,
+    "booking": {
+        "firstname": "rest assured  by",
+        "lastname": "anirudh",
+        "totalprice": 1001,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2023-03-04",
+            "checkout": "2023-04-06"
+        },
+        "additionalneeds": "lunch"
+    }
+}

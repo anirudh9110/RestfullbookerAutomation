@@ -1,0 +1,205 @@
+2024-04-30T10:25:54,096 [main] INFO  (RestAssuredListener.java:23) - 
+ Method =>POST
+ URI => https://restful-booker.herokuapp.com/booking
+ Request body => {
+  "firstname" : "api testing by",
+  "lastname" : "anirudh",
+  "additionalneeds" : "breakfast",
+  "totalprice" : 1000,
+  "depositpaid" : true,
+  "bookingdates" : {
+    "checkin" : "2023-03-25",
+    "checkout" : "2023-03-30"
+  }
+}
+ Response body => {
+    "bookingid": 2372,
+    "booking": {
+        "firstname": "api testing by",
+        "lastname": "anirudh",
+        "totalprice": 1000,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2023-03-25",
+            "checkout": "2023-03-30"
+        },
+        "additionalneeds": "breakfast"
+    }
+}
+2024-04-30T10:25:55,518 [main] INFO  (RestAssuredListener.java:23) - 
+ Method =>POST
+ URI => https://restful-booker.herokuapp.com/booking
+ Request body => {
+  "firstname" : "rest assured by",
+  "lastname" : "anirudh",
+  "additionalneeds" : "breakfast",
+  "totalprice" : 2000,
+  "depositpaid" : true,
+  "bookingdates" : {
+    "checkin" : "2023-03-25",
+    "checkout" : "2023-03-30"
+  }
+}
+ Response body => {
+    "bookingid": 2390,
+    "booking": {
+        "firstname": "rest assured by",
+        "lastname": "anirudh",
+        "totalprice": 2000,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2023-03-25",
+            "checkout": "2023-03-30"
+        },
+        "additionalneeds": "breakfast"
+    }
+}
+2024-04-30T10:25:56,782 [main] INFO  (RestAssuredListener.java:23) - 
+ Method =>POST
+ URI => https://restful-booker.herokuapp.com/booking
+ Request body => {
+  "firstname" : "postman by",
+  "lastname" : "anirudh",
+  "additionalneeds" : "breakfast",
+  "totalprice" : 3000,
+  "depositpaid" : true,
+  "bookingdates" : {
+    "checkin" : "2023-03-25",
+    "checkout" : "2023-03-30"
+  }
+}
+ Response body => {
+    "bookingid": 2400,
+    "booking": {
+        "firstname": "postman by",
+        "lastname": "anirudh",
+        "totalprice": 3000,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2023-03-25",
+            "checkout": "2023-03-30"
+        },
+        "additionalneeds": "breakfast"
+    }
+}
+2024-04-30T10:31:32,561 [main] INFO  (RestAssuredListener.java:28) - 
+ Response body => {
+    "bookingid": 5208,
+    "booking": {
+        "firstname": "api testing by",
+        "lastname": "anirudh",
+        "totalprice": 1000,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2023-03-25",
+            "checkout": "2023-03-30"
+        },
+        "additionalneeds": "breakfast"
+    }
+}
+2024-04-30T10:31:33,981 [main] INFO  (RestAssuredListener.java:28) - 
+ Response body => {
+    "bookingid": 5223,
+    "booking": {
+        "firstname": "rest assured by",
+        "lastname": "anirudh",
+        "totalprice": 2000,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2023-03-25",
+            "checkout": "2023-03-30"
+        },
+        "additionalneeds": "breakfast"
+    }
+}
+2024-04-30T10:31:35,201 [main] INFO  (RestAssuredListener.java:28) - 
+ Response body => {
+    "bookingid": 5237,
+    "booking": {
+        "firstname": "postman by",
+        "lastname": "anirudh",
+        "totalprice": 3000,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2023-03-25",
+            "checkout": "2023-03-30"
+        },
+        "additionalneeds": "breakfast"
+    }
+}
+2024-04-30T10:37:17,650 [main] INFO  (RestAssuredListener.java:28) - 
+ Response body => io.restassured.internal.RestAssuredResponseImpl@34c53688
+2024-04-30T10:37:19,371 [main] INFO  (RestAssuredListener.java:28) - 
+ Response body => io.restassured.internal.RestAssuredResponseImpl@1a1c21b4
+2024-04-30T10:37:20,614 [main] INFO  (RestAssuredListener.java:28) - 
+ Response body => io.restassured.internal.RestAssuredResponseImpl@723e2d08
+2024-04-30T15:26:20,317 [main] INFO  (RestAssuredListener.java:28) - {
+    "bookingid": 2618,
+    "booking": {
+        "firstname": "api testing by",
+        "lastname": "anirudh",
+        "totalprice": 1000,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2023-03-25",
+            "checkout": "2023-03-30"
+        },
+        "additionalneeds": "breakfast"
+    }
+}
+2024-04-30T15:26:21,825 [main] INFO  (RestAssuredListener.java:28) - {
+    "bookingid": 2632,
+    "booking": {
+        "firstname": "rest assured  by",
+        "lastname": "anirudh",
+        "totalprice": 1001,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2023-03-25",
+            "checkout": "2023-03-30"
+        },
+        "additionalneeds": "breakfast"
+    }
+}
+2024-04-30T15:26:47,793 [main] INFO  (RestAssuredListener.java:28) - {
+    "bookingid": 2850,
+    "booking": {
+        "firstname": "api testing by",
+        "lastname": "anirudh",
+        "totalprice": 1000,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2023-03-25",
+            "checkout": "2023-03-30"
+        },
+        "additionalneeds": "breakfast"
+    }
+}
+2024-04-30T15:26:49,373 [main] INFO  (RestAssuredListener.java:28) - {
+    "bookingid": 2862,
+    "booking": {
+        "firstname": "rest assured by",
+        "lastname": "anirudh",
+        "totalprice": 2000,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2023-03-25",
+            "checkout": "2023-03-30"
+        },
+        "additionalneeds": "breakfast"
+    }
+}
+2024-04-30T15:26:50,639 [main] INFO  (RestAssuredListener.java:28) - {
+    "bookingid": 2873,
+    "booking": {
+        "firstname": "postman by",
+        "lastname": "anirudh",
+        "totalprice": 3000,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2023-03-25",
+            "checkout": "2023-03-30"
+        },
+        "additionalneeds": "breakfast"
+    }
+}
