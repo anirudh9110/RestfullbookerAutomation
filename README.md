@@ -10,4 +10,5 @@ Running automation tests and generating  Allure reports from GitHub using Jenkin
 
 Test results (Allure report)
 ![Screenshot (13794)](https://github.com/anirudh9110/RestfullbookerAutomation/assets/77932284/5c2a27a2-4cea-4bc8-b6ea-7ec28246b86c)
+![Screenshot (13795)](https://github.com/anirudh9110/RestfullbookerAutomation/assets/77932284/9ec3812d-27ab-4bcc-9373-8166c7e6f24b)
 
